@@ -1,0 +1,19 @@
+{
+  "name": "web2project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./tailwind/tailwind.css -o ./css/mainTailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "swiper": "^11.0.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
